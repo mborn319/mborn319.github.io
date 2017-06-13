@@ -82,7 +82,7 @@
 	}
 
 	.container {
-		width: 60em;
+		width: 50em;
 	}
 
 	@media screen and (max-width: 1680px) {
@@ -106,7 +106,7 @@
 		}
 
 		.container {
-			width: 60em;
+			width: 50em;
 		}
 
 	}
@@ -1807,7 +1807,7 @@
 		}
 
 	body, input, select, textarea {
-		color: #666;
+		color: #444;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -1909,7 +1909,9 @@
 		border-left: solid 4px rgba(144, 144, 144, 0.5);
 		font-style: italic;
 		margin: 0 0 2em 0;
-		padding: 0.5em 0 0.5em 2em;
+		padding: 0.5em 0 0.5em 1.8em;
+    font-size: 110%;
+    line-height: 1.2em;
 	}
 
 	code {
@@ -3106,7 +3108,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 14pt;
+				font-size: 15pt;
 			}
 
 		/* Header */
@@ -3124,7 +3126,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 14pt;
 			}
 
 			h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
